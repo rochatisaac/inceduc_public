@@ -1,0 +1,145 @@
+# homepage
+homepage:
+  head:
+    title: "Início | INCEDUC"
+# showcase
+showcase:
+  enable: true
+  title: "INCEDUC"
+  subtitle: "Instituto de Ju e Ramiro"
+  description: "Escreva aqui um texto com uma breve descrição de qual sua proposta ou as informações pertinentes para serem seu cartão de visita: a primeira coisa a ser vista"
+  image:
+    alt: "Fotografia exibida na primeira tela"
+    x: "img/showcase/showcase.jpeg"
+    _2x: "img/showcase/showcase.jpeg"
+  imageMobile:
+    alt: "Fotografia exibida na primeira tela"
+    x: "img/showcase/showcase.jpeg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contato"
+    URL: "https://wa.me/557192256706?text=Ol%C3%A1%20Ramiro%2C%20gostaria%20de%20agendar%20uma%20consulta"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/inceduc/"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/inceduc/"
+
+# about
+about:
+  enable: true
+  title: "Quem somos nos?"
+  content: '<p class="lead">
+      Texto descritivo sobre o que é a ICEDUC (mais detalhadamente
+     </p>'
+  button:
+    icon: ""
+    btnText: "Saiba mais (algum link externo)"
+    URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/user-picture.jpeg"
+    _2x: "img/who-am-i/user-picture.jpeg"
+
+# education
+education:
+  enable: true
+  title: "Certificações, por exemplo"
+  items:
+    - university: "Universidade Federal do Recôncavo da Bahia"
+      year: "2009-2015"
+      degree: "Bacharelado em Psicologia"
+
+    - university: "Universidade Federal da Bahia"
+      year: "2015-2018"
+      degree: "Mestrado em psicologia"
+    
+    - university: "Universidade Federal da Bahia"
+      year: "2018-2023"
+      degree: "Doutorado em psicologia"
+
+# experience
+experience:
+  enable: false
+  title: "Experiência"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis justo nisi, volutpat ut nunc ac, tempus scelerisque mi. Duis semper nisl velit, eget eleifend sapien cursus condimentum. Praesent eu diam non erat tristique luctus aliquet ac velit. Mauris quis elementum nisl. Vivamus nec ante porta, commodo diam ultrices, pretium orci. Nulla porta consequat magna. Morbi malesuada ante nec nunc rutrum, quis suscipit elit rutrum. Nunc nec nulla vitae tellus lobortis mattis."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/ramiro-coni-389b15224/"
+
+  items:
+    - title: "Professor"
+      company: "Maurício de Nassau"
+      duration: "1900-2000"
+
+    - title: "Intercambista"
+      company: "Viena"
+      duration: "2020-2022"
+
+# Client & Work
+client_and_work:
+  title: "Eventos passados, por exemplo"
+  enable: true
+
+  works:
+    - title: "Workshop maneiro"
+      description: "Intervenção massa em algum lugar
+                    se fizer sentido claro algo desse gênero. 
+                    Idealmente algo que seja bem duradouro pois exige mão de obra cada vez que isso precisar ser atualizado.
+                    
+                    Pode ser também algum direcionamento para outra rede com feed mais dinamico.
+                    "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Veja mais"
+        URL: "#"
+      image:
+        x: "img/works/workshop.jpeg"
+        _2x: "img/works/workshop.jpeg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testemunhos (pode ser também equipe, talvez"
+  items:
+    - name: "Ramiro Coni"
+      position: "Psicologo"
+      content: "INCEDUC é bom de mais!"
+      image:
+        x: "img/testimonials/ramiro-coni2x.jpeg"
+        _2x: "img/testimonials/ramiro-coni.jpeg"
+
+# contact
+contact:
+  enable: true
+  title: "Contato"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Nome Completo"
+    email: "Endereço de E-mail"
+    message: "Escreva aqui sua mensagem"
+  phone:
+    title: "Telefone"
+    number: "+55 (71) 505 10 99"
+  email:
+    title: "E-mail"
+    email: '<a href="mailto:inceduc@gmail.com">inceduc@gmail.com</a>'
+  address:
+    title: "Endereço"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensagem"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
