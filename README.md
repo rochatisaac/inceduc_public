@@ -1,1 +1,0 @@
-# infoduc_public
