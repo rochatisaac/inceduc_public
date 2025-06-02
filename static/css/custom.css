@@ -2,7 +2,9 @@
     --main-title-color: #34a4ac;
     --main-subtitle-color: #68b8c0;
 }
-  
+html {
+    font-family: Montserrat, sans-serif !important;
+}
 /* Collor blue */
 body h1{
     color: var(--main-title-color) !important;
@@ -64,6 +66,7 @@ body .link{
 
 .btn-primary{
     background-color: var(--main-title-color);
+    background-image: linear-gradient(to bottom right, #008977, #A22F67);
 }
 
 .btn-primary i{
@@ -118,6 +121,7 @@ html body ::selection{
     margin-left: 50px;
     max-width: 100%;
     border-radius: 7px;
+    opacity: 0.9;
 }
 
 .about__us{
@@ -125,10 +129,28 @@ html body ::selection{
     padding-top: 50px;
 }
 
+.about__team {
+    margin: 40px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    img {
+        max-width: 300px;
+        max-height: 500px;
+    }
+}
+
+.color__degrade {
+    background-image: linear-gradient(to bottom right, #008977, #A22F67);
+    color: transparent;
+    background-clip: text;
+}
+
 @media only screen and (min-width : 768px) {
     .rad-showcase__bg img{
         height: 400px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .about__profile-picture img{
         object-fit: contain;

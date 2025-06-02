@@ -5,12 +5,14 @@ homepage:
 # showcase
 showcase:
   enable: true
-  title: "INCEDUC"
-  subtitle: "Instituto de Ju e Ramiro"
-  description: "Escreva aqui um texto com uma breve descrição de qual sua proposta ou as informações pertinentes para serem seu cartão de visita: a primeira coisa a ser vista"
+#  logo: "img/logo/logotipo_horizontal.png"
+  description: "Que bom ter você por aqui! <br>	<br>			
+  No Instituto Coni de Educação Continuadacriamos um ambiente que une teoria e prática,proporcionando experiências que 
+  transformam conhecimento em ação, ideias em soluções, e profissionais em protagonistas da própria jornada.
+  "
   image:
     alt: "Fotografia exibida na primeira tela"
-    x: "img/showcase/showcase.jpeg"
+    x: "img/showcase/showcase.jpg"
     _2x: "img/showcase/showcase.jpeg"
   imageMobile:
     alt: "Fotografia exibida na primeira tela"
@@ -21,44 +23,39 @@ showcase:
     btnText: "Contato"
     URL: "https://wa.me/557192256706?text=Ol%C3%A1%20Ramiro%2C%20gostaria%20de%20agendar%20uma%20consulta"
 
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/inceduc/"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/inceduc/"
-
 # about
 about:
   enable: true
-  title: "Quem somos nos?"
+  title: "Sobre o INCEDUC"
   content: '<p class="lead">
-      Texto descritivo sobre o que é a ICEDUC (mais detalhadamente
+      Somos um instituto que nasceu da paixão de pessoas que acreditam no poder 
+      transformador do aprendizado. No INCEDUC oferecemos educação continuada de qualidade, 
+      com cursos livres e de pós-graduação, que realmente preparam você para as necessidades reais do mercado. 
      </p>'
-  button:
-    icon: ""
-    btnText: "Saiba mais (algum link externo)"
-    URL: "https://www.linkedin.com/company/radity/"
-  image:
-    x: "img/who-am-i/user-picture.jpeg"
-    _2x: "img/who-am-i/user-picture.jpeg"
+  video:
+    x: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  team:
+    - name: "Ramiro Coni"
+      position: "Sócio fundador"
+      image:
+        x: "img/testimonials/ramiro-coni2x.jpeg"
+        _2x: "img/testimonials/ramiro-coni.jpeg"
+    - name: "Jutelice Coni"
+      position: "Sócia fundadora"
+      image:
+        x: "img/testimonials/ramiro-coni2x.jpeg"
+        _2x: "img/testimonials/ramiro-coni.jpeg"
 
 # education
 education:
   enable: true
-  title: "Certificações, por exemplo"
+  title: "Nossos cursos"
   items:
-    - university: "Universidade Federal do Recôncavo da Bahia"
-      year: "2009-2015"
-      degree: "Bacharelado em Psicologia"
+    - university: "Curso livre"
+      degree: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis justo nisi, volutpat ut nunc ac"
 
-    - university: "Universidade Federal da Bahia"
-      year: "2015-2018"
-      degree: "Mestrado em psicologia"
-    
-    - university: "Universidade Federal da Bahia"
-      year: "2018-2023"
-      degree: "Doutorado em psicologia"
+    - university: "Pós-graduação"
+      degree: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis justo nisi, volutpat ut nunc ac"
 
 # experience
 experience:
@@ -81,7 +78,7 @@ experience:
 
 # Client & Work
 client_and_work:
-  title: "Eventos passados, por exemplo"
+  title: "Fique por dentro!"
   enable: true
 
   works:
@@ -103,15 +100,10 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testemunhos (pode ser também equipe, talvez"
   items:
-    - name: "Ramiro Coni"
-      position: "Psicologo"
-      content: "INCEDUC é bom de mais!"
-      image:
-        x: "img/testimonials/ramiro-coni2x.jpeg"
-        _2x: "img/testimonials/ramiro-coni.jpeg"
+
 
 # contact
 contact:

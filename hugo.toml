@@ -26,17 +26,17 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "Sobre INCEDUC"
+  name = "CONHEÇA O INCEDUC"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Serviços"
-  URL = "#services"
+  name = "NOSSOS CURSOS"
+  URL = "#education"
   weight = 3
 
   [[menu.header]]
-  name = "Contato"
+  name = "CONTATO"
   URL = "#contact"
   weight = 4
 
@@ -47,8 +47,8 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.footer]]
-  name = "Serviços"
-  URL = "#services"
+  name = "NOSSOS CURSOS"
+  URL = "#education"
   weight = 3
 
   [[menu.footer]]

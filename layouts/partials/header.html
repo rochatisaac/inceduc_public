@@ -4,7 +4,7 @@
         <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
             <img
                 id="logo"
-                src="img/logo/logo-blue.png"
+                src="img/logo/logo.png"
                 alt="Header Logo"
             />
         </a>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">HOME</a>
+              <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">INÍCIO</a>
             </li>
             {{ range .Site.Menus.header }}
             <li class="nav-item">
@@ -32,6 +32,26 @@
               >
             </li>
             {{ end }}
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" >
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a href="https://www.instagram.com/inceduc/" target="_blank"
+              ><i class="icon-instagram-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/inceduc/" target="_blank"
+              ><i class="icon-linkedin-fill"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.youtube.com/inceduc/" target="_blank"
+              ><i class="icon-youtube-line"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </nav>
